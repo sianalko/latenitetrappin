@@ -1,0 +1,100 @@
+body {
+    background-color: #fedbf0;
+    font-family: DM Sans, sans-serif;
+}
+
+@media (max-width: 720px) {
+    .container {
+        flex-direction: column !important;
+    }
+}
+
+@media (min-width: 721px) {
+    .container {
+        flex-direction: column !important;
+    }
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.greeting {
+    font-size: 3rem;
+    height: 300px;
+}
+
+.introduction {
+    font-size: 1rem;
+    text-align: end;
+    height: 200px;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.name {
+    margin-right: 20px;
+}
+
+.name > .nombre {
+    margin: 0;
+}
+
+.work-experience {
+    justify-content: center;
+}
+
+.container > .she-works {
+    font-size: 0.8em;
+}
+
+.work-experience {
+    background-color: #e7c3d9;
+    text-align: center;
+    margin: 10px;
+    padding: 30px;
+    flex: 1;
+    border-radius: 20px;
+}
+
+.work-experience > h2 {
+    margin: 0;
+}
+
+.work-experience > h3 {
+    margin: 0px;
+}
+
+ul {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.education {
+    text-align: center;
+    margin: 10px;
+    padding: 30px;
+}
+
+.education > h1 {
+    padding-bottom: 20px;
+}
+
+.education > p {
+    margin: 0px;
+}
+
+p.school {
+    font-style: italic;
+}
+
+.skills {
+    background-color: #e7c3d9;
+    text-align: center;
+    margin: 10px;
+    padding: 30px;
+    flex: 1;
+    border-radius: 20px;
+}
