@@ -3,7 +3,7 @@ body {
     font-family: DM Sans, sans-serif;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
     .she-works {
         width: 100vh;
         display: flex;
@@ -14,6 +14,25 @@ body {
         width: 100vh;
         display: flex;
         flex-direction: column;
+    }
+}
+
+@media (max-width: 500px) {
+    .introduction {
+        width: 100vh;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cartoon-me {
+        margin: 0px;
+        text-align: center;
+    }
+
+    .name {
+        order: 1;
+        text-align: center;
     }
 }
 
@@ -32,9 +51,11 @@ body {
 .introduction {
     font-size: 1rem;
     text-align: end;
-    height: 200px;
+    height: auto;
     display: flex;
     margin: 10px 10px 50px 10px;
+    padding-left: 5px;
+    padding-right: 10px;
 }
 
 .name {
@@ -43,6 +64,10 @@ body {
 
 .name > .nombre {
     margin: 0;
+}
+
+.cartoon-me {
+    margin-right: 10px;
 }
 
 .work-experience {
