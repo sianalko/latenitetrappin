@@ -22,17 +22,17 @@ body {
         width: 100vh;
         display: flex;
         flex-direction: column;
-        text-align: center;
     }
 
     .cartoon-me {
-        margin: 0px;
+        margin-right: 0px !important;
         text-align: center;
     }
 
     .name {
         order: 1;
-        text-align: center;
+        text-align: center !important;
+        margin-right: 0px !important;
     }
 }
 
@@ -50,16 +50,16 @@ body {
 
 .introduction {
     font-size: 1rem;
-    text-align: end;
     height: auto;
     display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 10px 10px 50px 10px;
-    padding-left: 5px;
-    padding-right: 10px;
 }
 
 .name {
     margin-right: 20px;
+    text-align: end;
 }
 
 .name > .nombre {
@@ -80,7 +80,7 @@ body {
 }
 
 .work-experience {
-    background-color: #cc9cffb8;
+    background-color: #cbb3ff;
     text-align: center;
     margin: 10px;
     padding: 30px;
@@ -116,8 +116,12 @@ ul {
     flex: 1;
 }
 
-.education > h1 {
-    padding-bottom: 20px;
+hr {
+    border: 2px solid #a0d683;
+}
+
+.education >h2 {
+    padding-top: 20px;
 }
 
 .education > p {
@@ -133,7 +137,7 @@ p.year {
 }
 
 .skills {
-    background-color: #95e3a4;
+    background-color: #b7efc0;
     text-align: center;
     margin: 10px;
     padding: 30px;
